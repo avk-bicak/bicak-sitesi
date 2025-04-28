@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bıçak Dünyası</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Bıçak Dünyası</h1>
+    <nav>
+        <ul>
+            <li><a href="#urunler">Ürünler</a></li>
+            <li><a href="#hakkimizda">Hakkımızda</a></li>
+            <li><a href="#iletisim">İletişim</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div id="sepet">
+    <h2>Sepetim</h2>
+    <ul id="sepet-listesi"></ul>
+    <p id="toplam">Toplam: ₺0</p>
+</div>
+
+<section class="hero">
+    <h2>Usta İşçilikle Üretilen Bıçaklar</h2>
+    <p>Gücünü elinde hisset!</p>
+</section>
+
+<section id="urunler" class="products">
+    <h2>Ürünlerimiz</h2>
+    <div class="product-card">
+        <img src="resimler/bicak1.jpg" alt="Şef Bıçağı">
+        <h3>Şef Bıçağı</h3>
+        <p>Özel çelikten üretilmiştir.</p>
+        <p class="price">₺850</p>
+        <button>Sepete Ekle</button>
+    </div>
+    <div class="product-card">
+        <img src="resimler/bicak2.jpg" alt="Av Bıçağı">
+        <h3>Av Bıçağı</h3>
+        <p>El yapımı saplı.</p>
+        <p class="price">₺1200</p>
+        <button>Sepete Ekle</button>
+    </div>
+</section>
+
+<section id="hakkimizda" class="about">
+    <h2>Hakkımızda</h2>
+    <p>Üç kuşaktır bıçakçılık sanatını yaşatan bir aileyiz.</p>
+</section>
+
+<section id="iletisim" class="contact">
+    <h2>İletişim</h2>
+    <form>
+        <input type="text" placeholder="Adınız" required>
+        <input type="email" placeholder="E-posta" required>
+        <textarea placeholder="Mesajınız" required></textarea>
+        <button type="submit">Gönder</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Bıçak Dünyası. Tüm hakları saklıdır.</p>
+</footer>
+
+<script src="sepet.js"></script>
+
+</body>
+</html>
